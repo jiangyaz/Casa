@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PayRentViewController : UIViewController
+@interface PayRentViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 - (IBAction)showMenu:(id)sender;
+- (IBAction)makePayment:(id)sender;
+
+@property (nonatomic, retain) IBOutlet UITableView *historyPaymentTableView;
+@property (nonatomic, retain) IBOutlet UILabel *amountDueLabel;
+@property (nonatomic, retain) IBOutlet UILabel *dueDateLabel;
 
 @end

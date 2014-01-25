@@ -1,5 +1,5 @@
 //
-//  InboxViewController.h
+//  MyCasaViewController.h
 //  Casa
 //
 //  Created by Jiangyang Zhang on 1/25/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface InboxViewController : UIViewController
+@interface MyCasaViewController : UIViewController
 
 - (IBAction)showMenu:(id)sender;
 

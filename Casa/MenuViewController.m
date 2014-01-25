@@ -46,19 +46,19 @@
     
     switch (indexPath.row) {
         case 0:
-            navigationController.viewControllers = @[[self.storyboard instantiateViewControllerWithIdentifier:@"payController"]];
+            navigationController.viewControllers = @[[self.storyboard instantiateViewControllerWithIdentifier:@"myCasaController"]];
             [self.sideMenuViewController hideMenuViewController];
             break;
         case 1:
-            navigationController.viewControllers = @[[self.storyboard instantiateViewControllerWithIdentifier:@"maintainController"]];
+            navigationController.viewControllers = @[[self.storyboard instantiateViewControllerWithIdentifier:@"payController"]];
             [self.sideMenuViewController hideMenuViewController];
             break;
         case 2:
-            navigationController.viewControllers = @[[self.storyboard instantiateViewControllerWithIdentifier:@"directoryController"]];
+            navigationController.viewControllers = @[[self.storyboard instantiateViewControllerWithIdentifier:@"maintainController"]];
             [self.sideMenuViewController hideMenuViewController];
             break;
         case 3:
-            navigationController.viewControllers = @[[self.storyboard instantiateViewControllerWithIdentifier:@"inboxController"]];
+            navigationController.viewControllers = @[[self.storyboard instantiateViewControllerWithIdentifier:@"directoryController"]];
             [self.sideMenuViewController hideMenuViewController];
             break;
         default:
@@ -94,8 +94,8 @@
         cell.selectedBackgroundView = [[UIView alloc] init];
     }
     
-    NSArray *titles = @[@"Pay Rent", @"Maintainence", @"Directory", @"Inbox"];
-    NSArray *images = @[@"spruce", @"explore", @"profile", @"search"];
+    NSArray *titles = @[@"My Casa", @"Pay Rent", @"Maintainence", @"Directory"];
+    NSArray *images = @[@"spruce", @"explore", @"search", @"profile"];
     cell.textLabel.text = titles[indexPath.row];
     cell.imageView.image = [UIImage imageNamed:images[indexPath.row]];
     
@@ -106,11 +106,13 @@
     return UIStatusBarStyleLightContent;
 }
 
+/*
 - (IBAction)showSettings:(id)sender {
     UINavigationController *navigationController = (UINavigationController *)self.sideMenuViewController.contentViewController;
     
     navigationController.viewControllers = @[[self.storyboard instantiateViewControllerWithIdentifier:@"settingsController"]];
     [self.sideMenuViewController hideMenuViewController];
 }
+ */
 
 @end

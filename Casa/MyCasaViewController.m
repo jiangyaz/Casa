@@ -1,5 +1,5 @@
 //
-//  InboxViewController.m
+//  MyCasaViewController.m
 //  Casa
 //
 //  Created by Jiangyang Zhang on 1/25/14.
@@ -7,13 +7,13 @@
 //
 
 #import "RESideMenu.h"
-#import "InboxViewController.h"
+#import "MyCasaViewController.h"
 
-@interface InboxViewController ()
+@interface MyCasaViewController ()
 
 @end
 
-@implementation InboxViewController
+@implementation MyCasaViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

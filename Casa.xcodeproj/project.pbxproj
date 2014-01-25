@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EDA53941893A0540050EF06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDA53931893A0540050EF06 /* Foundation.framework */; };
+		7EDA53961893A0540050EF06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDA53951893A0540050EF06 /* CoreGraphics.framework */; };
+		7EDA53981893A0540050EF06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDA53971893A0540050EF06 /* UIKit.framework */; };
+		7EDA539E1893A0540050EF06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA539C1893A0540050EF06 /* InfoPlist.strings */; };
+		7EDA53A01893A0540050EF06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA539F1893A0540050EF06 /* main.m */; };
+		7EDA53A41893A0540050EF06 /* CasaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA53A31893A0540050EF06 /* CasaAppDelegate.m */; };
+		7EDA53A61893A0540050EF06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA53A51893A0540050EF06 /* Images.xcassets */; };
+		7EDA53AD1893A0540050EF06 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDA53AC1893A0540050EF06 /* XCTest.framework */; };
+		7EDA53AE1893A0540050EF06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDA53931893A0540050EF06 /* Foundation.framework */; };
+		7EDA53AF1893A0540050EF06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDA53971893A0540050EF06 /* UIKit.framework */; };
+		7EDA53B71893A0540050EF06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA53B51893A0540050EF06 /* InfoPlist.strings */; };
+		7EDA53B91893A0540050EF06 /* CasaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA53B81893A0540050EF06 /* CasaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EDA53B01893A0540050EF06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EDA53881893A0540050EF06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EDA538F1893A0540050EF06;
+			remoteInfo = Casa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7EDA53901893A0540050EF06 /* Casa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Casa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EDA53931893A0540050EF06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7EDA53951893A0540050EF06 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7EDA53971893A0540050EF06 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7EDA539B1893A0540050EF06 /* Casa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Casa-Info.plist"; sourceTree = "<group>"; };
+		7EDA539D1893A0540050EF06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7EDA539F1893A0540050EF06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EDA53A11893A0540050EF06 /* Casa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Casa-Prefix.pch"; sourceTree = "<group>"; };
+		7EDA53A21893A0540050EF06 /* CasaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CasaAppDelegate.h; sourceTree = "<group>"; };
+		7EDA53A31893A0540050EF06 /* CasaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CasaAppDelegate.m; sourceTree = "<group>"; };
+		7EDA53A51893A0540050EF06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7EDA53AB1893A0540050EF06 /* CasaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CasaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EDA53AC1893A0540050EF06 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7EDA53B41893A0540050EF06 /* CasaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CasaTests-Info.plist"; sourceTree = "<group>"; };
+		7EDA53B61893A0540050EF06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7EDA53B81893A0540050EF06 /* CasaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CasaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EDA538D1893A0540050EF06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDA53961893A0540050EF06 /* CoreGraphics.framework in Frameworks */,
+				7EDA53981893A0540050EF06 /* UIKit.framework in Frameworks */,
+				7EDA53941893A0540050EF06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDA53A81893A0540050EF06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDA53AD1893A0540050EF06 /* XCTest.framework in Frameworks */,
+				7EDA53AF1893A0540050EF06 /* UIKit.framework in Frameworks */,
+				7EDA53AE1893A0540050EF06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EDA53871893A0540050EF06 = {
+			isa = PBXGroup;
+			children = (
+				7EDA53991893A0540050EF06 /* Casa */,
+				7EDA53B21893A0540050EF06 /* CasaTests */,
+				7EDA53921893A0540050EF06 /* Frameworks */,
+				7EDA53911893A0540050EF06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EDA53911893A0540050EF06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EDA53901893A0540050EF06 /* Casa.app */,
+				7EDA53AB1893A0540050EF06 /* CasaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EDA53921893A0540050EF06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EDA53931893A0540050EF06 /* Foundation.framework */,
+				7EDA53951893A0540050EF06 /* CoreGraphics.framework */,
+				7EDA53971893A0540050EF06 /* UIKit.framework */,
+				7EDA53AC1893A0540050EF06 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EDA53991893A0540050EF06 /* Casa */ = {
+			isa = PBXGroup;
+			children = (
+				7EDA53A21893A0540050EF06 /* CasaAppDelegate.h */,
+				7EDA53A31893A0540050EF06 /* CasaAppDelegate.m */,
+				7EDA53A51893A0540050EF06 /* Images.xcassets */,
+				7EDA539A1893A0540050EF06 /* Supporting Files */,
+			);
+			path = Casa;
+			sourceTree = "<group>";
+		};
+		7EDA539A1893A0540050EF06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EDA539B1893A0540050EF06 /* Casa-Info.plist */,
+				7EDA539C1893A0540050EF06 /* InfoPlist.strings */,
+				7EDA539F1893A0540050EF06 /* main.m */,
+				7EDA53A11893A0540050EF06 /* Casa-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EDA53B21893A0540050EF06 /* CasaTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EDA53B81893A0540050EF06 /* CasaTests.m */,
+				7EDA53B31893A0540050EF06 /* Supporting Files */,
+			);
+			path = CasaTests;
+			sourceTree = "<group>";
+		};
+		7EDA53B31893A0540050EF06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EDA53B41893A0540050EF06 /* CasaTests-Info.plist */,
+				7EDA53B51893A0540050EF06 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EDA538F1893A0540050EF06 /* Casa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EDA53BC1893A0540050EF06 /* Build configuration list for PBXNativeTarget "Casa" */;
+			buildPhases = (
+				7EDA538C1893A0540050EF06 /* Sources */,
+				7EDA538D1893A0540050EF06 /* Frameworks */,
+				7EDA538E1893A0540050EF06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Casa;
+			productName = Casa;
+			productReference = 7EDA53901893A0540050EF06 /* Casa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EDA53AA1893A0540050EF06 /* CasaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EDA53BF1893A0540050EF06 /* Build configuration list for PBXNativeTarget "CasaTests" */;
+			buildPhases = (
+				7EDA53A71893A0540050EF06 /* Sources */,
+				7EDA53A81893A0540050EF06 /* Frameworks */,
+				7EDA53A91893A0540050EF06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EDA53B11893A0540050EF06 /* PBXTargetDependency */,
+			);
+			name = CasaTests;
+			productName = CasaTests;
+			productReference = 7EDA53AB1893A0540050EF06 /* CasaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EDA53881893A0540050EF06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Casa;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = HackTech;
+				TargetAttributes = {
+					7EDA53AA1893A0540050EF06 = {
+						TestTargetID = 7EDA538F1893A0540050EF06;
+					};
+				};
+			};
+			buildConfigurationList = 7EDA538B1893A0540050EF06 /* Build configuration list for PBXProject "Casa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7EDA53871893A0540050EF06;
+			productRefGroup = 7EDA53911893A0540050EF06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EDA538F1893A0540050EF06 /* Casa */,
+				7EDA53AA1893A0540050EF06 /* CasaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EDA538E1893A0540050EF06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDA539E1893A0540050EF06 /* InfoPlist.strings in Resources */,
+				7EDA53A61893A0540050EF06 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDA53A91893A0540050EF06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDA53B71893A0540050EF06 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EDA538C1893A0540050EF06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDA53A41893A0540050EF06 /* CasaAppDelegate.m in Sources */,
+				7EDA53A01893A0540050EF06 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDA53A71893A0540050EF06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDA53B91893A0540050EF06 /* CasaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EDA53B11893A0540050EF06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EDA538F1893A0540050EF06 /* Casa */;
+			targetProxy = 7EDA53B01893A0540050EF06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EDA539C1893A0540050EF06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EDA539D1893A0540050EF06 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7EDA53B51893A0540050EF06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EDA53B61893A0540050EF06 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EDA53BA1893A0540050EF06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7EDA53BB1893A0540050EF06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EDA53BD1893A0540050EF06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Casa/Casa-Prefix.pch";
+				INFOPLIST_FILE = "Casa/Casa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7EDA53BE1893A0540050EF06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Casa/Casa-Prefix.pch";
+				INFOPLIST_FILE = "Casa/Casa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7EDA53C01893A0540050EF06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Casa.app/Casa";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Casa/Casa-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CasaTests/CasaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7EDA53C11893A0540050EF06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Casa.app/Casa";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Casa/Casa-Prefix.pch";
+				INFOPLIST_FILE = "CasaTests/CasaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EDA538B1893A0540050EF06 /* Build configuration list for PBXProject "Casa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDA53BA1893A0540050EF06 /* Debug */,
+				7EDA53BB1893A0540050EF06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EDA53BC1893A0540050EF06 /* Build configuration list for PBXNativeTarget "Casa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDA53BD1893A0540050EF06 /* Debug */,
+				7EDA53BE1893A0540050EF06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7EDA53BF1893A0540050EF06 /* Build configuration list for PBXNativeTarget "CasaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDA53C01893A0540050EF06 /* Debug */,
+				7EDA53C11893A0540050EF06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EDA53881893A0540050EF06 /* Project object */;
+}

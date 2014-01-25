@@ -1,5 +1,5 @@
 //
-//  MaintainenceViewController.m
+//  InboxViewController.m
 //  Casa
 //
 //  Created by Jiangyang Zhang on 1/25/14.
@@ -7,13 +7,13 @@
 //
 
 #import "RESideMenu.h"
-#import "MaintainenceViewController.h"
+#import "InboxViewController.h"
 
-@interface MaintainenceViewController ()
+@interface InboxViewController ()
 
 @end
 
-@implementation MaintainenceViewController
+@implementation InboxViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

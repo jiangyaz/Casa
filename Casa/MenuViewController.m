@@ -53,6 +53,14 @@
             navigationController.viewControllers = @[[self.storyboard instantiateViewControllerWithIdentifier:@"maintainController"]];
             [self.sideMenuViewController hideMenuViewController];
             break;
+        case 2:
+            navigationController.viewControllers = @[[self.storyboard instantiateViewControllerWithIdentifier:@"directoryController"]];
+            [self.sideMenuViewController hideMenuViewController];
+            break;
+        case 3:
+            navigationController.viewControllers = @[[self.storyboard instantiateViewControllerWithIdentifier:@"inboxController"]];
+            [self.sideMenuViewController hideMenuViewController];
+            break;
         default:
             break;
     }
@@ -86,7 +94,7 @@
         cell.selectedBackgroundView = [[UIView alloc] init];
     }
     
-    NSArray *titles = @[@"Spruce", @"Trending", @"Profile", @"Search"];
+    NSArray *titles = @[@"Pay Rent", @"Maintainence", @"Directory", @"Inbox"];
     NSArray *images = @[@"spruce", @"explore", @"profile", @"search"];
     cell.textLabel.text = titles[indexPath.row];
     cell.imageView.image = [UIImage imageNamed:images[indexPath.row]];

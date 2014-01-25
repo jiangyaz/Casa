@@ -1,5 +1,5 @@
 //
-//  MaintainenceViewController.h
+//  InboxViewController.h
 //  Casa
 //
 //  Created by Jiangyang Zhang on 1/25/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MaintainenceViewController : UIViewController
+@interface InboxViewController : UIViewController
 
 - (IBAction)showMenu:(id)sender;
 

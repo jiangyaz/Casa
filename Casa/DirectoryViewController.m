@@ -1,5 +1,5 @@
 //
-//  MaintainenceViewController.m
+//  DirectoryViewController.m
 //  Casa
 //
 //  Created by Jiangyang Zhang on 1/25/14.
@@ -7,13 +7,13 @@
 //
 
 #import "RESideMenu.h"
-#import "MaintainenceViewController.h"
+#import "DirectoryViewController.h"
 
-@interface MaintainenceViewController ()
+@interface DirectoryViewController ()
 
 @end
 
-@implementation MaintainenceViewController
+@implementation DirectoryViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

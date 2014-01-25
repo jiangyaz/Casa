@@ -15,7 +15,6 @@
                     <view key="view" contentMode="scaleToFill" id="X7k-5t-BQb">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KKG-AY-ox9" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -33,7 +32,12 @@
                     <view key="view" contentMode="scaleToFill" id="eRh-iE-KyU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="Z6D-y9-SLW">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2ro-bE-DvQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -53,7 +57,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pay Rent!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXj-oX-Fbx">
-                                <rect key="frame" x="139" y="256" width="74" height="21"/>
+                                <rect key="frame" x="123" y="257" width="74" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -87,7 +91,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Maintainence" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pvG-r3-L5O">
-                                <rect key="frame" x="109" y="252" width="103" height="21"/>
+                                <rect key="frame" x="109" y="249" width="103" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -98,12 +102,83 @@
                     <navigationItem key="navigationItem" id="Ckg-ks-1IJ">
                         <barButtonItem key="leftBarButtonItem" image="nav.png" id="sFN-zB-I8Z">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="showMenu:" destination="MJf-eG-kyT" id="DAr-3O-KjX"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eyk-Nf-xwy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1100" y="205"/>
+        </scene>
+        <!--Directory View Controller-->
+        <scene sceneID="IjX-R1-1kw">
+            <objects>
+                <viewController storyboardIdentifier="directoryController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="DvY-TR-Xk5" customClass="DirectoryViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Sbe-QB-YOT"/>
+                        <viewControllerLayoutGuide type="bottom" id="N4e-Ob-1iP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aKx-yP-GYP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directory" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H7S-zE-XVY">
+                                <rect key="frame" x="125" y="250" width="70" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="G1P-hn-5cV">
+                        <barButtonItem key="leftBarButtonItem" image="nav.png" id="Tqa-N0-7yr">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="showMenu:" destination="DvY-TR-Xk5" id="ekQ-6B-c1X"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ozb-JX-K9l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1095" y="898"/>
+        </scene>
+        <!--Inbox View Controller-->
+        <scene sceneID="6xE-hj-STr">
+            <objects>
+                <viewController storyboardIdentifier="inboxController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BT1-SG-ZDS" customClass="InboxViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LoW-Xm-qrv"/>
+                        <viewControllerLayoutGuide type="bottom" id="Y5l-Zf-ODf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pgf-P8-VzK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Inbox" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pFf-0C-M1U">
+                                <rect key="frame" x="139" y="273" width="43" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="wKd-rN-qTw">
+                        <barButtonItem key="leftBarButtonItem" image="nav.png" id="jtL-aB-MBM">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="showMenu:" destination="BT1-SG-ZDS" id="cYj-Vz-aC6"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2GS-SU-kuQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1099" y="1602"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="uAX-IH-8ZI">
@@ -116,14 +191,17 @@
                     <connections>
                         <segue destination="uoX-Md-Bts" kind="relationship" relationship="rootViewController" id="ylF-pZ-1Nw"/>
                         <segue destination="MJf-eG-kyT" kind="push" id="QhK-8B-TqA"/>
+                        <segue destination="DvY-TR-Xk5" kind="push" id="WbT-re-mw2"/>
+                        <segue destination="BT1-SG-ZDS" kind="push" id="9e1-rf-k3Y"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YXb-WR-bzY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="509" y="-210"/>
+            <point key="canvasLocation" x="509" y="-194"/>
         </scene>
     </scenes>
     <resources>
+        <image name="background.png" width="640" height="1136"/>
         <image name="nav.png" width="20" height="16"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

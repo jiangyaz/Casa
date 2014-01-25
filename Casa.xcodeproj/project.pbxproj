@@ -85,6 +85,8 @@
 		7EDA54531893B4590050EF06 /* spruce.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA541A1893B4590050EF06 /* spruce.png */; };
 		7EDA54541893B4590050EF06 /* spruce@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA541B1893B4590050EF06 /* spruce@2x.png */; };
 		7EDA54561893BAC30050EF06 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA54551893BAC30050EF06 /* background.png */; };
+		7EDA545B189432390050EF06 /* DirectoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA545A189432390050EF06 /* DirectoryViewController.m */; };
+		7EDA545E189432490050EF06 /* InboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA545D189432490050EF06 /* InboxViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -187,6 +189,10 @@
 		7EDA541A1893B4590050EF06 /* spruce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spruce.png; sourceTree = "<group>"; };
 		7EDA541B1893B4590050EF06 /* spruce@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spruce@2x.png"; sourceTree = "<group>"; };
 		7EDA54551893BAC30050EF06 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = "App Icons/background.png"; sourceTree = "<group>"; };
+		7EDA5459189432390050EF06 /* DirectoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectoryViewController.h; sourceTree = "<group>"; };
+		7EDA545A189432390050EF06 /* DirectoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectoryViewController.m; sourceTree = "<group>"; };
+		7EDA545C189432490050EF06 /* InboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxViewController.h; sourceTree = "<group>"; };
+		7EDA545D189432490050EF06 /* InboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +260,8 @@
 				7EDA53C21893A90A0050EF06 /* Navigation */,
 				7EDA53D51893B3260050EF06 /* Pay */,
 				7EDA53D61893B33F0050EF06 /* Maintainence */,
+				7EDA5457189431F70050EF06 /* Directory */,
+				7EDA5458189432010050EF06 /* Inbox */,
 				7EDA53C81893A9F10050EF06 /* Other */,
 				7EDA539A1893A0540050EF06 /* Supporting Files */,
 			);
@@ -421,6 +429,24 @@
 			path = Navbar;
 			sourceTree = "<group>";
 		};
+		7EDA5457189431F70050EF06 /* Directory */ = {
+			isa = PBXGroup;
+			children = (
+				7EDA5459189432390050EF06 /* DirectoryViewController.h */,
+				7EDA545A189432390050EF06 /* DirectoryViewController.m */,
+			);
+			name = Directory;
+			sourceTree = "<group>";
+		};
+		7EDA5458189432010050EF06 /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				7EDA545C189432490050EF06 /* InboxViewController.h */,
+				7EDA545D189432490050EF06 /* InboxViewController.m */,
+			);
+			name = Inbox;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -579,11 +605,13 @@
 				7EDA53A41893A0540050EF06 /* CasaAppDelegate.m in Sources */,
 				7EDA53A01893A0540050EF06 /* main.m in Sources */,
 				7EDA53DC1893B3920050EF06 /* MaintainenceViewController.m in Sources */,
+				7EDA545E189432490050EF06 /* InboxViewController.m in Sources */,
 				7EDA53C71893A9A40050EF06 /* RootViewController.m in Sources */,
 				7EDA53D01893AA1C0050EF06 /* RESideMenu.m in Sources */,
 				7EDA53D91893B3810050EF06 /* PayRentViewController.m in Sources */,
 				7EDA53D41893AB320050EF06 /* MenuViewController.m in Sources */,
 				7EDA53CF1893AA1C0050EF06 /* RECommonFunctions.m in Sources */,
+				7EDA545B189432390050EF06 /* DirectoryViewController.m in Sources */,
 				7EDA53D11893AA1C0050EF06 /* UIViewController+RESideMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

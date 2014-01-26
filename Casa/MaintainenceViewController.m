@@ -144,7 +144,7 @@
     issueNameLabel.text = issue[@"type"];
     issueUrgencyLabel.text = [urgencyName objectAtIndex: [issue[@"urgency_level"] integerValue]];
     issueBeginDateLabel.text = [formatter stringFromDate: issue[@"issue_date"]];
-    issueEndDateLabel.text = [formatter stringFromDate: issue[@"complete_date"]];
+    issueEndDateLabel.text = [formatter stringFromDate: issue[@"completion_date"]];
     issueDescriptionLabel.text = issue[@"details"];
     return cell;
 }

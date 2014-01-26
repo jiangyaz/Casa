@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface DirectoryViewController : UIViewController
+<UITableViewDataSource, UITableViewDelegate>
 
 - (IBAction)showMenu:(id)sender;
+
+@property (nonatomic, retain) IBOutlet UITableView *directoryTableView;
+@property (nonatomic, strong) NSArray *tenantArray;
 
 @end

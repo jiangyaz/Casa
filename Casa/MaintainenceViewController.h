@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MaintainenceViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface MaintainenceViewController : UIViewController
+<UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, retain) IBOutlet UITableView *issuesTableView;
 

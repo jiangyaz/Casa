@@ -10,6 +10,7 @@
 #import <Parse/Parse.h>
 
 @implementation CasaAppDelegate
+@synthesize balanceVal;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -17,7 +18,7 @@
                   clientKey:@"fxLwSNYuzlZZzXFAOTb9A1TcX9k7oJpEnytUdtEv"];
     
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
-    
+    balanceVal = 880;
     return YES;
 }
 

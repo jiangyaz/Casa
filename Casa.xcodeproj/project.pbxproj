@@ -125,6 +125,7 @@
 		7EDA54B81894E1020050EF06 /* casa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA54B51894E1020050EF06 /* casa@2x.png */; };
 		7EDA54B91894E1020050EF06 /* maintenance@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA54B61894E1020050EF06 /* maintenance@2x.png */; };
 		7EDA54BA1894E1020050EF06 /* rent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA54B71894E1020050EF06 /* rent@2x.png */; };
+		7EDA54BC189578380050EF06 /* landing_page@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA54BB189578380050EF06 /* landing_page@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -273,6 +274,7 @@
 		7EDA54B51894E1020050EF06 /* casa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "casa@2x.png"; sourceTree = "<group>"; };
 		7EDA54B61894E1020050EF06 /* maintenance@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "maintenance@2x.png"; sourceTree = "<group>"; };
 		7EDA54B71894E1020050EF06 /* rent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rent@2x.png"; sourceTree = "<group>"; };
+		7EDA54BB189578380050EF06 /* landing_page@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "landing_page@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -452,6 +454,7 @@
 		7EDA53DF1893B4590050EF06 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				7EDA54BB189578380050EF06 /* landing_page@2x.png */,
 				7EDA54B51894E1020050EF06 /* casa@2x.png */,
 				7EDA54B61894E1020050EF06 /* maintenance@2x.png */,
 				7EDA54B71894E1020050EF06 /* rent@2x.png */,
@@ -669,6 +672,7 @@
 				7EDA543A1893B4590050EF06 /* navbar_title_profile.png in Resources */,
 				7EDA54B11894DF5A0050EF06 /* red-dot.png in Resources */,
 				7EDA542D1893B4590050EF06 /* like_pressed@2x.png in Resources */,
+				7EDA54BC189578380050EF06 /* landing_page@2x.png in Resources */,
 				7EDA54351893B4590050EF06 /* navbar_title_home@2x.png in Resources */,
 				7EDA54341893B4590050EF06 /* navbar_title_home.png in Resources */,
 				7EDA54511893B4590050EF06 /* settings.png in Resources */,
@@ -991,6 +995,7 @@
 				7EDA53BE1893A0540050EF06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EDA53BF1893A0540050EF06 /* Build configuration list for PBXNativeTarget "CasaTests" */ = {
 			isa = XCConfigurationList;
@@ -999,6 +1004,7 @@
 				7EDA53C11893A0540050EF06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,6 +8,7 @@
 
 #import "RESideMenu.h"
 #import "PayRentViewController.h"
+#import "CasaAppDelegate.h"
 
 @interface PayRentViewController ()
 
@@ -28,10 +29,15 @@
     return self;
 }
 
+- (void) viewWillAppear:(BOOL)animated
+{
+    CasaAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
+    amountDueLabel.text = [NSString stringWithFormat:@"%d", delegate.balanceVal];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning

@@ -11,5 +11,6 @@
 @interface CasaAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (assign, nonatomic) int balanceVal;
 
 @end

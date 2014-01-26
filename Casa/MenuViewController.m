@@ -8,7 +8,6 @@
 
 #import "MenuViewController.h"
 #import "UIViewController+RESideMenu.h"
-
 @interface MenuViewController ()
 
 @end

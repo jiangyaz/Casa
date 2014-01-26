@@ -99,6 +99,7 @@
     PFObject *issueObject = [PFObject objectWithClassName:@"Issue"];
     issueObject[@"type"] = self.issueTypeString;
     issueObject[@"status"] = @0;
+    issueObject[@"unit"] = @"103";
     issueObject[@"tenant_id"] = @"xlFCyOZQKp";     // Hard coded as Jonathan Sutherland
     issueObject[@"issue_date"] = [NSDate date];
     issueObject[@"details"] = self.issueDetailString;

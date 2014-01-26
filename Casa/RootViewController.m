@@ -15,7 +15,8 @@
 
 @implementation RootViewController
 
-- (void)awakeFromNib {
+- (void)awakeFromNib
+{
     self.contentViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"contentController"];
     self.menuViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"menuController"];
     self.backgroundImage = [UIImage imageNamed:@"background"];

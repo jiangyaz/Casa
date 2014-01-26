@@ -7,6 +7,7 @@
 //
 
 #import "PaymentDetailViewController.h"
+#import "CasaAppDelegate.h"
 
 @interface PaymentDetailViewController ()
 
@@ -104,6 +105,9 @@
 
 
 - (IBAction) payNow:(id)sender {
+    CasaAppDelegate *delegate = [[UIApplication sharedApplication]delegate];
+    delegate.balanceVal = 0;
+    
     UIAlertView *alert = [[UIAlertView alloc]
                           initWithTitle: @"Thank you"
                           message: @"Your payment will be processed and updated soon!"
@@ -114,7 +118,7 @@
 }
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
-     [self.navigationController popViewControllerAnimated:YES];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 

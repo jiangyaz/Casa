@@ -12,4 +12,6 @@
 
 - (IBAction)showMenu:(id)sender;
 
+@property (nonatomic, retain) IBOutlet UITableView *myCasaTableView;
+
 @end

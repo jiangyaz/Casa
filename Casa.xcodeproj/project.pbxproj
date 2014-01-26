@@ -112,6 +112,19 @@
 		7EDA549A1894AA330050EF06 /* YpfunAjSDS.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA548F1894AA330050EF06 /* YpfunAjSDS.png */; };
 		7EDA549C1894AAF20050EF06 /* cljAmAgxhw.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA549B1894AAF20050EF06 /* cljAmAgxhw.png */; };
 		7EDA549F1894B0AB0050EF06 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA549E1894B0AB0050EF06 /* MBProgressHUD.m */; };
+		7EDA54A11894CDBD0050EF06 /* apartment.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA54A01894CDBD0050EF06 /* apartment.png */; };
+		7EDA54A71894DAB80050EF06 /* houseparty.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA54A21894DAB80050EF06 /* houseparty.png */; };
+		7EDA54A81894DAB80050EF06 /* lost_found.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA54A31894DAB80050EF06 /* lost_found.png */; };
+		7EDA54A91894DAB80050EF06 /* pool_maintain.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA54A41894DAB80050EF06 /* pool_maintain.png */; };
+		7EDA54AA1894DAB80050EF06 /* rent_due.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA54A51894DAB80050EF06 /* rent_due.png */; };
+		7EDA54AB1894DAB80050EF06 /* water_shut.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA54A61894DAB80050EF06 /* water_shut.png */; };
+		7EDA54AF1894DF5A0050EF06 /* green-dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA54AC1894DF5A0050EF06 /* green-dot.png */; };
+		7EDA54B01894DF5A0050EF06 /* orange-dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA54AD1894DF5A0050EF06 /* orange-dot.png */; };
+		7EDA54B11894DF5A0050EF06 /* red-dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA54AE1894DF5A0050EF06 /* red-dot.png */; };
+		7EDA54B41894E0F90050EF06 /* IssueDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA54B31894E0F90050EF06 /* IssueDetailViewController.m */; };
+		7EDA54B81894E1020050EF06 /* casa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA54B51894E1020050EF06 /* casa@2x.png */; };
+		7EDA54B91894E1020050EF06 /* maintenance@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA54B61894E1020050EF06 /* maintenance@2x.png */; };
+		7EDA54BA1894E1020050EF06 /* rent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA54B71894E1020050EF06 /* rent@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -246,6 +259,20 @@
 		7EDA549B1894AAF20050EF06 /* cljAmAgxhw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cljAmAgxhw.png; sourceTree = "<group>"; };
 		7EDA549D1894B0AB0050EF06 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		7EDA549E1894B0AB0050EF06 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		7EDA54A01894CDBD0050EF06 /* apartment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apartment.png; sourceTree = "<group>"; };
+		7EDA54A21894DAB80050EF06 /* houseparty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = houseparty.png; sourceTree = "<group>"; };
+		7EDA54A31894DAB80050EF06 /* lost_found.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lost_found.png; sourceTree = "<group>"; };
+		7EDA54A41894DAB80050EF06 /* pool_maintain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pool_maintain.png; sourceTree = "<group>"; };
+		7EDA54A51894DAB80050EF06 /* rent_due.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rent_due.png; sourceTree = "<group>"; };
+		7EDA54A61894DAB80050EF06 /* water_shut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water_shut.png; sourceTree = "<group>"; };
+		7EDA54AC1894DF5A0050EF06 /* green-dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-dot.png"; sourceTree = "<group>"; };
+		7EDA54AD1894DF5A0050EF06 /* orange-dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orange-dot.png"; sourceTree = "<group>"; };
+		7EDA54AE1894DF5A0050EF06 /* red-dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-dot.png"; sourceTree = "<group>"; };
+		7EDA54B21894E0F90050EF06 /* IssueDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IssueDetailViewController.h; sourceTree = "<group>"; };
+		7EDA54B31894E0F90050EF06 /* IssueDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IssueDetailViewController.m; sourceTree = "<group>"; };
+		7EDA54B51894E1020050EF06 /* casa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "casa@2x.png"; sourceTree = "<group>"; };
+		7EDA54B61894E1020050EF06 /* maintenance@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "maintenance@2x.png"; sourceTree = "<group>"; };
+		7EDA54B71894E1020050EF06 /* rent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rent@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -414,6 +441,8 @@
 			children = (
 				7EDA53DA1893B3920050EF06 /* MaintainenceViewController.h */,
 				7EDA53DB1893B3920050EF06 /* MaintainenceViewController.m */,
+				7EDA54B21894E0F90050EF06 /* IssueDetailViewController.h */,
+				7EDA54B31894E0F90050EF06 /* IssueDetailViewController.m */,
 				7EDA546518944E8A0050EF06 /* SubmitIssueViewController.h */,
 				7EDA546618944E8A0050EF06 /* SubmitIssueViewController.m */,
 			);
@@ -423,6 +452,18 @@
 		7EDA53DF1893B4590050EF06 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				7EDA54B51894E1020050EF06 /* casa@2x.png */,
+				7EDA54B61894E1020050EF06 /* maintenance@2x.png */,
+				7EDA54B71894E1020050EF06 /* rent@2x.png */,
+				7EDA54A01894CDBD0050EF06 /* apartment.png */,
+				7EDA54A21894DAB80050EF06 /* houseparty.png */,
+				7EDA54A31894DAB80050EF06 /* lost_found.png */,
+				7EDA54A41894DAB80050EF06 /* pool_maintain.png */,
+				7EDA54A51894DAB80050EF06 /* rent_due.png */,
+				7EDA54A61894DAB80050EF06 /* water_shut.png */,
+				7EDA54AC1894DF5A0050EF06 /* green-dot.png */,
+				7EDA54AD1894DF5A0050EF06 /* orange-dot.png */,
+				7EDA54AE1894DF5A0050EF06 /* red-dot.png */,
 				7EDA54841894AA330050EF06 /* tenants */,
 				7EDA53E01893B4590050EF06 /* App Icons */,
 				7EDA53E41893B4590050EF06 /* background@2x.png */,
@@ -626,15 +667,18 @@
 				7EDA54321893B4590050EF06 /* navbar_title_gadgets.png in Resources */,
 				7EDA53C41893A92D0050EF06 /* Main.storyboard in Resources */,
 				7EDA543A1893B4590050EF06 /* navbar_title_profile.png in Resources */,
+				7EDA54B11894DF5A0050EF06 /* red-dot.png in Resources */,
 				7EDA542D1893B4590050EF06 /* like_pressed@2x.png in Resources */,
 				7EDA54351893B4590050EF06 /* navbar_title_home@2x.png in Resources */,
 				7EDA54341893B4590050EF06 /* navbar_title_home.png in Resources */,
 				7EDA54511893B4590050EF06 /* settings.png in Resources */,
+				7EDA54A11894CDBD0050EF06 /* apartment.png in Resources */,
 				7EDA54911894AA330050EF06 /* ffVuxfSZBb.png in Resources */,
 				7EDA54491893B4590050EF06 /* profile.png in Resources */,
 				7EDA54381893B4590050EF06 /* navbar_title_outdoors.png in Resources */,
 				7EDA54481893B4590050EF06 /* product_bg@2x.png in Resources */,
 				7EDA539E1893A0540050EF06 /* InfoPlist.strings in Resources */,
+				7EDA54A71894DAB80050EF06 /* houseparty.png in Resources */,
 				7EDA54331893B4590050EF06 /* navbar_title_gadgets@2x.png in Resources */,
 				7EDA54441893B4590050EF06 /* navbar_title_vehicles.png in Resources */,
 				7EDA542A1893B4590050EF06 /* like.png in Resources */,
@@ -644,6 +688,7 @@
 				7EDA544E1893B4590050EF06 /* save_pressed@2x.png in Resources */,
 				7EDA544A1893B4590050EF06 /* profile@2x.png in Resources */,
 				7EDA54991894AA330050EF06 /* xlFCyOZQKp.png in Resources */,
+				7EDA54AF1894DF5A0050EF06 /* green-dot.png in Resources */,
 				7EDA542E1893B4590050EF06 /* nav.png in Resources */,
 				7EDA54371893B4590050EF06 /* navbar_title_name@2x.png in Resources */,
 				7EDA549C1894AAF20050EF06 /* cljAmAgxhw.png in Resources */,
@@ -661,11 +706,17 @@
 				7EDA54461893B4590050EF06 /* no-more-products.png in Resources */,
 				7EDA542F1893B4590050EF06 /* nav@2x.png in Resources */,
 				7EDA541F1893B4590050EF06 /* background@2x.png in Resources */,
+				7EDA54A81894DAB80050EF06 /* lost_found.png in Resources */,
 				7EDA543E1893B4590050EF06 /* navbar_title_settings.png in Resources */,
 				7EDA54951894AA330050EF06 /* NZnxUsn7h4.png in Resources */,
+				7EDA54AB1894DAB80050EF06 /* water_shut.png in Resources */,
 				7EDA54241893B4590050EF06 /* hate.png in Resources */,
 				7EDA541C1893B4590050EF06 /* app-icon-120.png in Resources */,
 				7EDA54201893B4590050EF06 /* dots.png in Resources */,
+				7EDA54BA1894E1020050EF06 /* rent@2x.png in Resources */,
+				7EDA54A91894DAB80050EF06 /* pool_maintain.png in Resources */,
+				7EDA54B81894E1020050EF06 /* casa@2x.png in Resources */,
+				7EDA54B01894DF5A0050EF06 /* orange-dot.png in Resources */,
 				7EDA54521893B4590050EF06 /* settings@2x.png in Resources */,
 				7EDA54291893B4590050EF06 /* Default@2x.png in Resources */,
 				7EDA54541893B4590050EF06 /* spruce@2x.png in Resources */,
@@ -677,6 +728,7 @@
 				7EDA54231893B4590050EF06 /* explore@2x.png in Resources */,
 				7EDA54211893B4590050EF06 /* dots@2x.png in Resources */,
 				7EDA54301893B4590050EF06 /* navbar_title_email.png in Resources */,
+				7EDA54B91894E1020050EF06 /* maintenance@2x.png in Resources */,
 				7EDA544F1893B4590050EF06 /* search.png in Resources */,
 				7EDA544D1893B4590050EF06 /* save_pressed.png in Resources */,
 				7EDA543F1893B4590050EF06 /* navbar_title_settings@2x.png in Resources */,
@@ -687,6 +739,7 @@
 				7EDA54271893B4590050EF06 /* hate_pressed@2x.png in Resources */,
 				7EDA54901894AA330050EF06 /* ArUEPh5Y7l.png in Resources */,
 				7EDA544B1893B4590050EF06 /* save.png in Resources */,
+				7EDA54AA1894DAB80050EF06 /* rent_due.png in Resources */,
 				7EDA54561893BAC30050EF06 /* background.png in Resources */,
 				7EDA54361893B4590050EF06 /* navbar_title_name.png in Resources */,
 				7EDA54451893B4590050EF06 /* navbar_title_vehicles@2x.png in Resources */,
@@ -714,6 +767,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EDA53A41893A0540050EF06 /* CasaAppDelegate.m in Sources */,
+				7EDA54B41894E0F90050EF06 /* IssueDetailViewController.m in Sources */,
 				7EDA53A01893A0540050EF06 /* main.m in Sources */,
 				7EDA53DC1893B3920050EF06 /* MaintainenceViewController.m in Sources */,
 				7EDA53C71893A9A40050EF06 /* RootViewController.m in Sources */,

@@ -94,8 +94,8 @@
         cell.selectedBackgroundView = [[UIView alloc] init];
     }
     
-    NSArray *titles = @[@"My Casa", @"Pay Rent", @"Maintainence", @"Directory"];
-    NSArray *images = @[@"spruce", @"explore", @"search", @"profile"];
+    NSArray *titles = @[@"My Casa", @"Pay Rent", @"Maintenance", @"Directory"];
+    NSArray *images = @[@"casa", @"rent", @"maintenance", @"profile"];
     cell.textLabel.text = titles[indexPath.row];
     cell.imageView.image = [UIImage imageNamed:images[indexPath.row]];
     

@@ -9,6 +9,7 @@
 #import "RESideMenu.h"
 #import <Parse/Parse.h>
 #import "MaintainenceViewController.h"
+#import "IssueDetailViewController.h"
 
 
 @interface MaintainenceViewController ()
@@ -45,6 +46,10 @@
     self.theNewIssueArray  = [[NSMutableArray alloc] init];
     self.curIssueArray  = [[NSMutableArray alloc] init];
     self.pastIssueArray = [[NSMutableArray alloc] init];
+    
+    UIView *footer = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 1, 100)];
+    footer.backgroundColor = [UIColor clearColor];
+    issuesTableView.tableFooterView = footer;
 }
 
 - (void) loadIssues {
@@ -121,39 +126,36 @@
     }
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-
-    NSArray *urgencyName = [[NSArray alloc] initWithObjects: @"Not urgent", @"Urgent", @"Extreme urgent", nil];
-    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-    [formatter setDateFormat:@"MM/dd/yyyy"];
-    
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier: @"IssueCell"];
     
     UILabel *issueNameLabel = (UILabel *)[cell viewWithTag:1];
-    UILabel *issueUrgencyLabel = (UILabel *)[cell viewWithTag:2];
-    UILabel *issueBeginDateLabel = (UILabel *)[cell viewWithTag:3];
-    UILabel *issueEndDateLabel = (UILabel *)[cell viewWithTag:4];
+    UIImageView *statusIndicatorImageView = (UIImageView *)[cell viewWithTag:2];
+    
     UILabel *issueDescriptionLabel = (UILabel *)[cell viewWithTag:5];
     
     PFObject *issue;
+    NSString *dotImageName;
     switch (indexPath.section) {
         case 0:
             issue = [self.theNewIssueArray objectAtIndex: indexPath.row];
+            dotImageName = @"red-dot";
             break;
         case 1:
             issue = [self.curIssueArray objectAtIndex: indexPath.row];
+            dotImageName = @"orange-dot";
             break;
         case 2:
             issue = [self.pastIssueArray objectAtIndex: indexPath.row];
+            dotImageName = @"green-dot";
             break;
         default:
             break;
     }
     
     issueNameLabel.text = issue[@"type"];
-    issueUrgencyLabel.text = [urgencyName objectAtIndex: [issue[@"urgency_level"] integerValue]];
-    issueBeginDateLabel.text = [formatter stringFromDate: issue[@"issue_date"]];
-    issueEndDateLabel.text = [formatter stringFromDate: issue[@"completion_date"]];
+    [statusIndicatorImageView setImage:[UIImage imageNamed:dotImageName]];
     issueDescriptionLabel.text = issue[@"details"];
     return cell;
 }
@@ -161,11 +163,28 @@
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-
+    
+    IssueDetailViewController *issueDetailController = (IssueDetailViewController *) [self.storyboard instantiateViewControllerWithIdentifier:@"issueDetailController"];
+    
+    switch (indexPath.section) {
+        case 0:
+            issueDetailController.selectedIssue = [self.theNewIssueArray objectAtIndex: indexPath.row];
+            break;
+        case 1:
+            issueDetailController.selectedIssue = [self.curIssueArray objectAtIndex: indexPath.row];
+            break;
+        case 2:
+            issueDetailController.selectedIssue = [self.pastIssueArray objectAtIndex: indexPath.row];
+            break;
+        default:
+            break;
+    }
+    
+    [self.navigationController pushViewController:issueDetailController animated:YES];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 44;
+    return 60;
 }
 
 

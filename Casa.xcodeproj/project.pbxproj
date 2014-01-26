@@ -111,6 +111,7 @@
 		7EDA54991894AA330050EF06 /* xlFCyOZQKp.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA548E1894AA330050EF06 /* xlFCyOZQKp.png */; };
 		7EDA549A1894AA330050EF06 /* YpfunAjSDS.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA548F1894AA330050EF06 /* YpfunAjSDS.png */; };
 		7EDA549C1894AAF20050EF06 /* cljAmAgxhw.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDA549B1894AAF20050EF06 /* cljAmAgxhw.png */; };
+		7EDA549F1894B0AB0050EF06 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA549E1894B0AB0050EF06 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -243,6 +244,8 @@
 		7EDA548E1894AA330050EF06 /* xlFCyOZQKp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xlFCyOZQKp.png; sourceTree = "<group>"; };
 		7EDA548F1894AA330050EF06 /* YpfunAjSDS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YpfunAjSDS.png; sourceTree = "<group>"; };
 		7EDA549B1894AAF20050EF06 /* cljAmAgxhw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cljAmAgxhw.png; sourceTree = "<group>"; };
+		7EDA549D1894B0AB0050EF06 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		7EDA549E1894B0AB0050EF06 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -389,6 +392,8 @@
 				7EDA53CC1893AA1C0050EF06 /* RESideMenu.m */,
 				7EDA53CD1893AA1C0050EF06 /* UIViewController+RESideMenu.h */,
 				7EDA53CE1893AA1C0050EF06 /* UIViewController+RESideMenu.m */,
+				7EDA549D1894B0AB0050EF06 /* MBProgressHUD.h */,
+				7EDA549E1894B0AB0050EF06 /* MBProgressHUD.m */,
 			);
 			name = Other;
 			sourceTree = "<group>";
@@ -721,6 +726,7 @@
 				7EDA545B189432390050EF06 /* DirectoryViewController.m in Sources */,
 				7EDA546718944E8A0050EF06 /* SubmitIssueViewController.m in Sources */,
 				7EDA53D11893AA1C0050EF06 /* UIViewController+RESideMenu.m in Sources */,
+				7EDA549F1894B0AB0050EF06 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

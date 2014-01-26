@@ -13,6 +13,6 @@
 
 @property (strong, readwrite, nonatomic) UITableView *tableView;
 
-- (IBAction)showSettings:(id)sender;
+// - (IBAction)showSettings:(id)sender;
 
 @end

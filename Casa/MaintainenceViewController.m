@@ -10,6 +10,7 @@
 #import <Parse/Parse.h>
 #import "MaintainenceViewController.h"
 
+
 @interface MaintainenceViewController ()
 
 @end
@@ -17,6 +18,7 @@
 @implementation MaintainenceViewController
 
 @synthesize issuesTableView;
+@synthesize maintainHUD;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -28,6 +30,12 @@
 }
 
 -(void) viewWillAppear:(BOOL)animated {
+    maintainHUD = [[MBProgressHUD alloc] initWithView:self.navigationController.view];
+	[self.navigationController.view addSubview: maintainHUD];
+	maintainHUD.delegate = self;
+	maintainHUD.labelText = @"Loading";
+    [maintainHUD show:YES];
+    
     [self loadIssues];
 }
 
@@ -64,6 +72,7 @@
                 }
             }
             [issuesTableView reloadData];
+            [maintainHUD hide:YES];
         } else {
             NSLog(@"Error: %@ %@", error, [error userInfo]);
         }

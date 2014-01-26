@@ -17,6 +17,7 @@
                   clientKey:@"fxLwSNYuzlZZzXFAOTb9A1TcX9k7oJpEnytUdtEv"];
     
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
     return YES;
 }
 

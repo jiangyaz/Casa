@@ -7,13 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MBProgressHUD.h"
 
 @interface DirectoryViewController : UIViewController
-<UITableViewDataSource, UITableViewDelegate>
+<UITableViewDataSource, UITableViewDelegate, MBProgressHUDDelegate>
 
 - (IBAction)showMenu:(id)sender;
 
 @property (nonatomic, retain) IBOutlet UITableView *directoryTableView;
 @property (nonatomic, strong) NSArray *tenantArray;
+@property (nonatomic, strong) MBProgressHUD *directoryHUD;
 
 @end

@@ -7,15 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MBProgressHUD.h"
 
 @interface MaintainenceViewController : UIViewController
-<UITableViewDataSource, UITableViewDelegate>
+<UITableViewDataSource, UITableViewDelegate, MBProgressHUDDelegate>
 
 @property (nonatomic, retain) IBOutlet UITableView *issuesTableView;
 
 @property (strong, nonatomic) NSMutableArray *theNewIssueArray;
 @property (retain, nonatomic) NSMutableArray *curIssueArray;
 @property (retain, nonatomic) NSMutableArray *pastIssueArray;
+
+@property (nonatomic, strong) MBProgressHUD *maintainHUD;
 
 - (IBAction)showMenu:(id)sender;
 

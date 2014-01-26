@@ -17,6 +17,7 @@
 @implementation DirectoryViewController
 
 @synthesize directoryTableView;
+@synthesize directoryHUD;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -34,6 +35,12 @@
     UIView *footer = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 1, 60)];
     footer.backgroundColor = [UIColor clearColor];
     directoryTableView.tableFooterView = footer;
+    
+    directoryHUD = [[MBProgressHUD alloc] initWithView:self.navigationController.view];
+	[self.navigationController.view addSubview: directoryHUD];
+	directoryHUD.delegate = self;
+	directoryHUD.labelText = @"Loading";
+    [directoryHUD show:YES];
 	
     PFQuery *query = [PFQuery queryWithClassName:@"Tenant"];
     
@@ -43,6 +50,7 @@
                 self.tenantArray = [[NSArray alloc] initWithArray:objects];
             }
             [directoryTableView reloadData];
+            [directoryHUD hide:YES];
         } else {
             NSLog(@"Error: %@ %@", error, [error userInfo]);
         }
@@ -71,7 +79,8 @@
     return [self.tenantArray count];
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
 
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier: @"TenantInfoCell"];
     

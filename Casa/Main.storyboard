@@ -233,6 +233,9 @@
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
+                                                    <connections>
+                                                        <outlet property="delegate" destination="qLg-TL-4DA" id="6MS-Oc-yeS"/>
+                                                    </connections>
                                                 </textView>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -290,7 +293,7 @@
             </objects>
             <point key="canvasLocation" x="1528" y="435"/>
         </scene>
-        <!--Maintainence View Controller-->
+        <!--Maintainence View Controller - Maintainence-->
         <scene sceneID="4nc-SE-Sdf">
             <objects>
                 <viewController storyboardIdentifier="maintainController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="MJf-eG-kyT" customClass="MaintainenceViewController" sceneMemberID="viewController">
@@ -373,7 +376,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Ckg-ks-1IJ">
+                    <navigationItem key="navigationItem" title="Maintainence" id="Ckg-ks-1IJ">
                         <barButtonItem key="leftBarButtonItem" image="nav.png" id="sFN-zB-I8Z">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
@@ -475,7 +478,7 @@
             </objects>
             <point key="canvasLocation" x="1528" y="1121"/>
         </scene>
-        <!--Directory View Controller-->
+        <!--Directory View Controller - Directory-->
         <scene sceneID="IjX-R1-1kw">
             <objects>
                 <viewController storyboardIdentifier="directoryController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="DvY-TR-Xk5" customClass="DirectoryViewController" sceneMemberID="viewController">
@@ -550,7 +553,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="G1P-hn-5cV">
+                    <navigationItem key="navigationItem" title="Directory" id="G1P-hn-5cV">
                         <barButtonItem key="leftBarButtonItem" image="nav.png" id="Tqa-N0-7yr">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
@@ -566,7 +569,7 @@
             </objects>
             <point key="canvasLocation" x="1095" y="1814"/>
         </scene>
-        <!--My Casa View Controller-->
+        <!--My Casa View Controller - My Casa-->
         <scene sceneID="6xE-hj-STr">
             <objects>
                 <viewController storyboardIdentifier="myCasaController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BT1-SG-ZDS" customClass="MyCasaViewController" sceneMemberID="viewController">
@@ -586,7 +589,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="wKd-rN-qTw">
+                    <navigationItem key="navigationItem" title="My Casa" id="wKd-rN-qTw">
                         <barButtonItem key="leftBarButtonItem" image="nav.png" id="jtL-aB-MBM">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>

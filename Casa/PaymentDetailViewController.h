@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface PaymentDetailViewController : UIViewController
-<UITableViewDataSource, UITableViewDelegate, UIAlertViewDelegate>
+<UITableViewDataSource, UITableViewDelegate, UIAlertViewDelegate, UITextViewDelegate>
 
 - (IBAction) payNow:(id)sender;
 

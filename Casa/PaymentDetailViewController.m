@@ -51,13 +51,10 @@
     switch (section) {
         case 0:
             return @"Amount TO Pay";
-            break;
         case 1:
             return @"Bank Accounts";
-            break;
         default:
             return @"";
-            break;
     }
 }
 
@@ -82,8 +79,6 @@
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSInteger section = indexPath.section;
-    NSInteger row = indexPath.row;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -91,12 +86,12 @@
 }
 
 
-- (IBAction)payNow:(id)sender {
+- (IBAction) payNow:(id)sender {
     UIAlertView *alert = [[UIAlertView alloc]
                           initWithTitle: @"Thank you"
                           message: @"Your payment will be processed and updated soon!"
                           delegate: self
-                          cancelButtonTitle:@"OK" otherButtonTitles:nil];
+                          cancelButtonTitle:@"Sounds Good!" otherButtonTitles:nil];
     
     [alert show];
 }

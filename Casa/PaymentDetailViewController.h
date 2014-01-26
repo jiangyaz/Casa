@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PaymentDetailViewController : UIViewController  <UITableViewDataSource, UITableViewDelegate, UIAlertViewDelegate>
+@interface PaymentDetailViewController : UIViewController
+<UITableViewDataSource, UITableViewDelegate, UIAlertViewDelegate>
 
-- (IBAction)payNow:(id)sender;
+- (IBAction) payNow:(id)sender;
 
 @property (nonatomic, retain) IBOutlet UITableView *paymentDetailTableView;
 

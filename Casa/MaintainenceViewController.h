@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MaintainenceViewController : UIViewController
+@interface MaintainenceViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (nonatomic, retain) IBOutlet UITableView *issuesTableView;
+
+@property (strong, nonatomic) NSMutableArray *theNewIssueArray;
+@property (retain, nonatomic) NSMutableArray *curIssueArray;
+@property (retain, nonatomic) NSMutableArray *pastIssueArray;
 
 - (IBAction)showMenu:(id)sender;
 

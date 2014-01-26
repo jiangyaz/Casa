@@ -10,8 +10,8 @@
 
 @interface PayRentViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
-- (IBAction)showMenu:(id)sender;
-- (IBAction)makePayment:(id)sender;
+- (IBAction) showMenu:(id)sender;
+- (IBAction) makePayment:(id)sender;
 
 @property (nonatomic, retain) IBOutlet UITableView *historyPaymentTableView;
 @property (nonatomic, retain) IBOutlet UILabel *amountDueLabel;
